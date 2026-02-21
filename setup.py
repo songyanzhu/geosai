@@ -4,7 +4,7 @@
 #############################################
 # File Name: setup.py
 # Author: Songyan Zhu
-# Mail: soonyenju@foxmail.com
+# Mail: songyan.zhu@soton.ac.uk
 # Created Time:  2018-10-23 13:28:34
 #############################################
 
@@ -12,16 +12,16 @@
 from setuptools import setup, find_packages
 
 setup(
-	name = "scigee",
-	version = "0.0.36",
-	keywords = ("easy geo warpper", "atmospheric data","satellite data", "flux"),
+	name = "geosai",
+	version = "0.0.1",
+	keywords = ("geospatial", "AI", "machine learning"),
 	description = "For faster proccessing geofile",
 	long_description = "Read/write and process rs/gis related data, especially atmospheric rs data.",
 	license = "MIT Licence",
 
-	url="https://github.com/soonyenju/scigee",
+	url="https://github.com/songyanzhu/geosai",
 	author = "Songyan Zhu",
-	author_email = "Songyan.Zhu@outlool.com",
+	author_email = "Songyan.Zhu@soton.ac.uk",
 
 	packages = find_packages(),
 	include_package_data = True,
